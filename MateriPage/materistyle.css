@@ -1,0 +1,191 @@
+/* body{
+    padding-top: 10vh;
+} */
+.javawrapper{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    font-weight: 700;
+    width: 100%;
+    top: 9vh;
+    background: rgba(0, 0, 0, 0.34);
+    backdrop-filter: blur(4px);
+    height: 44vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 0px 14px rgba(0, 0, 0, 0.25);
+}
+
+.java{
+    width: 100%;
+}
+
+.logojava{
+    position: absolute;
+    top: 21vh;
+    z-index: 1;
+    left: 80vw;
+}
+
+.back{
+    position: absolute;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;
+    top: 15vh;
+    left: 6vw;
+    z-index: 2;
+}
+
+.scheduleheader{
+    width: 656px;
+    height: 72px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70vh;
+    left: 10vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.garisheader{
+    background-color: black;
+    width: 656px;
+height: 4px;
+position: absolute;
+left: 47vw;
+top: 78vh;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.garisschedule{
+    width: 6px;
+height: 605px;
+background-color: black;
+position: absolute;
+left: 14vw;
+top: 83vh;
+}
+
+.bulat1,.bulat2,.bulat3{
+    width: 27px;
+height: 27px;
+border: 2px solid #FFFFFF;
+border-radius: 100px;
+}
+
+.bulat1{
+    position: absolute;
+    background-color: #FFDD5D;
+    top: 95vh;
+    left: 13.3vw;
+}
+
+.bulat2{
+    position: absolute;
+    background-color: #E75D18;
+    left: 13.3vw;
+    top: 117vh;
+}
+
+.bulat3{
+    position: absolute;
+    background-color: #DB00FF;
+    left: 13.3vw;
+    top: 139vh;
+}
+
+.kotak1,.kotak2,.kotak3{
+    font-family: 'Poppins';
+    text-align: center;
+    color: white;
+    position: absolute;
+    display: flex;   
+    left: 20vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.kotak1{
+    top: 90vh;
+}
+
+.kotak2{
+    top: 112vh;
+}
+
+.kotak3{
+    top: 134vh;
+}
+
+.kiri1,.kiri2,.kiri3{
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 188px;
+    height: 111px;
+}
+
+.kiri1{
+    background: linear-gradient(90deg, #FFDD5D 0%, #EFB23C 100%);
+}
+
+.kiri2{
+    background: linear-gradient(90deg, #E75D18 0%, #F17C41 100%);
+}
+
+.kiri3{
+    background: linear-gradient(90deg, #DB00FF 0%, #F476FF 100%);
+}
+
+.tengah1,.tengah2,.tengah3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 500;
+    width: 761px;
+    height: 111px;
+}
+
+.tengah1{
+    background: linear-gradient(180deg, #FFDD5D 0%, #EFB43D 100%);
+}
+
+.tengah2{
+    background: linear-gradient(180deg, #F07A3F 0%, #E75D18 100%);
+
+}
+
+.tengah3{
+    background: linear-gradient(180deg, #F374FF 0%, #DB00FF 100%);
+}
+
+.zoom{
+    font-size: 30px;
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 110vh;
+    width: 80vw;
+    height: 52px;
+    background: #1E231F;
+    margin-bottom: 10vh;
+}
+
+.linkzoom{
+    color: white;
+}
+
+.linkzoom:hover{
+    color: rgb(52, 52, 255);
+}

@@ -1,0 +1,185 @@
+body{
+    background-image: url("/Background.png");
+}
+.paymentheader{
+    width: 100%;
+height: 244px;
+padding-top: 10vh;
+background: linear-gradient(180deg, #F27D42 0%, rgba(242, 125, 65, 0.69) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.paymenttext{
+    /* z-index: -5; */
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 96px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.layarbelakang{
+    z-index: -1;
+    position: absolute;
+width: 86vw;
+height: 2170px;
+left: 7vw;
+top: 40vh;
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+
+.selectedcoursetext{
+    background: #F27D42;
+border-radius: 20px;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 40px;
+text-align: center;
+color: #FFFFFF;
+width: 40vw;
+margin-left: 30vw;
+margin-top: 10vh;
+}
+
+.course{
+    margin-left: 37vw;
+    margin-top: 10vh;
+}
+
+.paymentdesc{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80vw;
+height: 464px;
+margin-left: 10vw;
+background: rgba(255, 218, 79, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 31px;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 24px;
+color: #000000;
+}
+
+.desc1,.desc2,.desc3,.desc4{
+    margin-left: 6vw;
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.course1{
+    font-family: 'Poppins';
+    width: 360px;
+    height: 378.67px;
+    background: radial-gradient(73.7% 66.62% at 3.58% 4.81%, #C4E1FF 0%, #649AD2 100%);
+    margin-top: 10vh;
+    border-radius: 20px;
+    margin-left: 37vw;
+}
+
+.coursetext1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+height: 264.89px;
+background-repeat: no-repeat;
+    background-position: center;
+backdrop-filter: blur(4.5px);
+border-radius: 20px 20px 0px 0px;
+font-weight: 700;
+font-size: 31px;
+text-align: center;
+color: white;
+}
+
+.blurry1{
+    position: absolute;
+    width: 360px;
+    height:264.89px;
+    border-radius: 20px 20px 0px 0px;
+    background: url("Assets/tutor1.png");
+}
+
+.coursebottom1{
+    height: 113.78px;
+    padding-left: 30px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+
+.rating1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.price1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.buttons,.buttonsyel{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100px;
+}
+
+.buttons{
+    background-color: grey;
+}
+
+.buttonsyel{
+    background-color: #F9C607;
+}
+
+.boldy{
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 40px;
+line-height: 60px;
+color: #000000;
+}
+
+.methodupper{
+    font-family: 'Poppins';
+font-weight: 400;
+font-size: 36px;
+}
+
+.methodwrapper{
+    margin-left: 15vw;
+}
+
+.complete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+font-weight: 500;
+font-size: 24px;
+color: #FFFDFD;
+width: 264px;
+height: 61px;
+background: #F27D42;
+border-radius: 20px;
+margin-left: 50vw;
+}

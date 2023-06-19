@@ -1,0 +1,243 @@
+.homeheaderwrapper{
+    padding-top: 8vh;
+    display: flex;
+    width: 90vw;
+    height: 558px;
+    background: linear-gradient(96.45deg, #F27D42 5.6%, #E24C00 94.7%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 264px 0px;
+    background-color: black;
+    align-items: center;
+    padding-left: 10vw;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 64px;
+}
+
+body{
+    overflow-x: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+    
+}
+
+.plester{
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+}
+
+.plestertext{
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-4.34deg);
+    color: white;
+    top: 53vh;
+    left: 11vw;
+}
+
+.saly{
+    position: absolute;
+    top: 19vh;
+    left: 60vw;
+}
+
+.imagewrapper{
+    position: relative;
+    margin: 0 auto;
+    width: 71.6vw;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.imageslider{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.imageslider::-webkit-scrollbar{
+    display: none;
+}
+.imageslider img{
+    scroll-snap-align: start;
+}
+
+.imagenavigator a{
+    transition: opacity ease 200ms;
+}
+
+.nav1,.nav2{
+    position: absolute;
+    top: 131vh;
+    z-index: 1;
+}
+
+.nav1{
+    left: 79vw;
+}
+
+.nav2{
+    left: 82vw;
+}
+
+.featuredtext{
+    padding-left: 14vw;
+    padding-top: 16vh;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.getstarted{
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.started{
+    background: #EC6B2A;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 7vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.populartext,#activetext{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 40px;
+    padding-left: 14vw;
+}
+
+.course{
+    font-family: 'Poppins';
+    width: 360px;
+    height: 378.67px;
+    background: radial-gradient(73.7% 66.62% at 3.58% 4.81%, #C4E1FF 0%, #649AD2 100%);
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.coursetext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+height: 264.89px;
+background: url("course1.png");
+background-repeat: no-repeat;
+    background-position: center;
+backdrop-filter: blur(4.5px);
+border-radius: 20px 20px 0px 0px;
+font-weight: 700;
+font-size: 31px;
+text-align: center;
+color: white;
+}
+
+.intro,.tag{
+    color: white;
+    z-index: 200;
+}
+
+.blurry{
+    position: absolute;
+    width: 360px;
+    height:264.89px;
+    background-color: rgba(0, 68, 130, 0.31) ;
+    border-radius: 20px 20px 0px 0px;
+    opacity: 0.5;
+}
+
+.tag{
+    position: absolute;
+    top: 3vh;
+    margin-left: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+height: 35px;
+background: #F76A6A;
+border-radius: 30px;
+font-size: 20px;
+}
+
+.tag1{
+    position: absolute;
+    top: 3vh;
+    margin-left: 12vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 35px;
+    background: #51C75D;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.coursebottom{
+    display: flex;
+    width: 360px;
+    height: 113.78px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 20px 20px;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#popularwrapper,#popularwrapper2{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 40vw;
+    justify-content: space-around;
+    margin-left: 13vw;
+    padding-left: 30vw;
+    margin-bottom: 10vh;   
+}
+
+#popularwrapper3{
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    margin-left: 13vw;
+    padding-left: 3.4vw;
+}
+
+#popularwrapper3 .tag{
+    background: #51C75D;
+}
+
+
+
+#popularwrapper::-webkit-scrollbar,#popularwrapper2::-webkit-scrollbar,#popularwrapper3::-webkit-scrollbar{
+    display: none;
+}
+
+.Viewall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

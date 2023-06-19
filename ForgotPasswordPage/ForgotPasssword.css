@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #FFDA4F;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.Center{
+    display: flex;
+    justify-content: center;
+}
+
+.Forgot-Password-Page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Background{
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    height: 50vw;
+    width: 50vw;
+}
+
+@keyframes a1{
+    16.6% {rotate: 0deg;}
+    33.3% {rotate: 45deg;}
+    66.6% {rotate: -25deg;}
+    100% {rotate: 25deg;}
+}
+
+#BG-Purple{
+    z-index: -3;
+    background-color: #6BC4D2;
+    animation: a1 3.06s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+@keyframes a2{
+    25% {rotate: 0deg;}
+    50% {rotate: 45deg;}
+    100% {rotate: -25deg;}
+}
+
+#BG-Orange{
+    z-index: -2;
+    background-color: #F46440;
+    animation: a2 2.04s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+@keyframes a3{
+    50% {rotate: 0deg;}
+    100% {rotate: 45deg;}
+}
+
+#BG-Cream{
+    z-index: -1;
+    background-color: #FFEFE7;
+    animation: a3 1.02s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+@keyframes a6{
+    0% {scale: 0;}
+    100% {scale: 1;}
+}
+
+.Forgot-Password-Form{
+    scale: 0;
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10vh;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: a6 1.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+
+#forgot-password-label{
+    font-weight: 1000;
+    font-size: 2.5rem;
+    -webkit-text-stroke: 0.02rem black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#email-label{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+#email{
+    width: 30vw;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(1.6px 1.6px 1.5px black);
+}
+
+#password-label{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#password{
+    width: 30vw;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(1.6px 1.6px 1.5px black);
+}
+
+#confirm-password-label{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+#confirm-password{
+    width: 30vw;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    filter: drop-shadow(1.6px 1.6px 1.5px black);
+}
+
+.BtnContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#password-reset-button{
+    z-index: 0;
+    margin-top: 3rem;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 17vw;
+    height: 10vh;
+    background: #6BC4D2;
+}
+
+.BtnBg{
+    position: absolute;
+    width: 16vw;
+    height: 10vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+@keyframes a4{
+    75% {rotate: 0deg}
+    100% {rotate: -4.5deg;}
+}
+
+#BTN-Orange{
+    z-index: -1;
+    background-color: #F46440;
+    animation: a4 3.2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+@keyframes a5{
+    75% {rotate: 0deg}
+    100% {rotate: -9.5deg;}
+}
+
+#BTN-Black{
+    z-index: -2;
+    background-color: black;
+    animation: a5 3s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+#back{
+    margin-top: 5vh;
+}

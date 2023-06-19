@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.page-center{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* upper section */
+
+.upper-section{
+    background-color: rgba(231, 231, 231, 0.473);
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+
+.back-text{
+    display: flex;
+    gap: 7px;
+    color: #A6A6A6;
+    align-items: center;
+}
+
+.back-text p{
+    font-weight: 400;
+    font-size: 23px;
+}
+
+.polygon img{
+    height: 19px;
+}
+
+.box-section{
+    background-color: rgba(231, 231, 231, 0.473);
+    padding-bottom: 110px;
+}
+
+.box-container{
+    padding: 80px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.upper-side{
+    display: flex;
+}
+
+.upper-left-side{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper-left-side p{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 40px;
+}
+
+.rating img{
+    height: 100%;
+}
+
+.num{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.quan{
+    font-style: normal;
+    font-weight: 275;
+    font-size: 14px;
+}
+
+.button{
+    border-radius: 50px;
+    padding: 10px 50px;
+    background-color: #F46440;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.upper-right-side{
+    margin-top: 20px;
+}
+
+.name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.top-skill-set{
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.skill-set-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.skill-set-box{
+    background-color: #F9C607;
+    width: 200px;
+    height: 42px;
+    border-radius: 50px;
+}
+
+.skill-set{
+    padding-top: 8px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.skill-set-container{
+    margin-bottom: 50px;
+}
+
+.experiences{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.student-review{
+    margin-top: 60px;
+}
+
+.student-review img{
+    width: 100%;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Register.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="../Header/header.js" type="module"></script>
+    <script src="Register.js" type="module" defer></script>
+</head>
+<body>
+    <div class="Register-Page">
+        <div class="Prop1"></div>
+        <div class="Prop2"></div>
+        <div class="Prop3"></div>
+        <div class="Prop4"></div>
+        <div class="Container">
+            <div class="Register-Img">
+                <img id="img1" src="Register-Page-Img.png" alt="Register-Page-Img">
+            </div>
+            <div class="Register-Form">
+                <form name="register-form" id="register-form" action="">
+                    <div class="Center">
+                        <label id="register-label">Register</label>
+                    </div>
+                    <br>
+                    <label for="name" id="name-label">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <label for="email" id="email-label">Email</label>
+                    <br>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <label for="phone-number" id="phone-number-label">Phone Number</label>
+                    <br>
+                    <input type="text" id="phone-number" name="phone-number" placeholder="(+62) -">
+                    <br>
+                    <label for="password" id="password-label">New Password</label>
+                    <br>
+                    <input type="password" id="password" name="password">
+                    <br>
+                    <label id="errorMsg">&nbsp;</label>
+                    <div class="Center">
+                        <input id="sign-up-button" type="submit" value="Sign Up">
+                    </div>
+                    <div class="Center">
+                        <a id="back" href="../LoginPage/login-page.html">
+                            <label>Already have an Account?</label>
+                        </a>
+                        <div id="loading">
+                            <p id="loading-txt">Signing you up... Please wait for 3 seconds</p>
+                            <div id="loading-bg">&nbsp;</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="../Footer/Footer.js"></script>
+</body>
+</html>
