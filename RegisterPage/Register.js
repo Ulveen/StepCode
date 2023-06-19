@@ -32,7 +32,7 @@ registerForm.addEventListener("submit", (e)=>{
         const object = {name: name, email: email, phoneNumber: phonenumber, password: password
         }
         userController.addUser(object);
-        delay("../HomePage/Home.html");
+        delay("../HomePage/index.html");
         userController.onLogin(object);
     }
 })
